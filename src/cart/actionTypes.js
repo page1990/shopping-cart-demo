@@ -1,0 +1,2 @@
+const CHECKOUT = 'CART/CHECKOUT'
+export { CHECKOUT }

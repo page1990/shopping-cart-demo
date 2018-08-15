@@ -1,7 +1,31 @@
 react创建shopping-cart的思考过程
 ==================
 
-[TOC]
+## Table of Contents
+- 使用`create-react-app`来初始化一个项目
+  - 安装好一些需要的包
+  - 开始一个简单的测试页面
+- 模拟从服务端获取初始化商品列表并展示
+  - 商品列表
+  - 设计actions和reduces
+  - roducts组件index.js中导出组件模块
+  - 在渲染页面的时候模拟请求商品列表
+- 渲染并展示商品列表
+  - ProductList展示组件
+  - ProductsContainer容器组件
+  - ProductItem组件
+  - ProductDetail组件
+  - 导出products组件
+  - 在App.js中引入ProductsContainer组件
+  - 给ProductsContainer增加购物车按钮监听事件
+  - products组件编写reducer处理Add To Cart
+- Cart购物车组件
+  - 购物车的state结构
+  - cart组件的渲染
+  - cartContainer容器组件
+  - 实现购物车checkout的功能
+- 使用总结
+
 
 根据redux的官方实例，这里根据我自己的思路，从无到有创建一个`shopping-cart`的程序，这里着重记录下创建一个react App的思路.
 
